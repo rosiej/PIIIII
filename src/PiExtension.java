@@ -1,4 +1,11 @@
 public class PiExtension {
 
-    final double PI = Math.PI;
+
+    public static String PiRepresentative(int n){
+
+        String pi = String.valueOf(Math.PI);
+        int cut = n-2;
+        
+        return pi.substring(0,cut);
+    }
 }
